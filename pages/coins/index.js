@@ -2,16 +2,14 @@ import Axios from "axios"
 import Link from "next/link"
 const CoinList=({coinData})=>{
     console.log(coinData)
-
-
 return(
     <div>
         {coinData.coins.map((coin)=>(
-            <li key={coin.id} >
+            <a key={coin.id} href={`coins/${coin.id}`}> 
                 <h2>{coin.name}</h2>
                 <img src={coin.icon} width={100}/>
                 <p>{coin.price}</p>
-            </li>
+            </a>
         ))}
     </div>
 )}
@@ -28,3 +26,5 @@ export const getStaticProps=async()=>{
 }
 
 export default CoinList;
+
+  
