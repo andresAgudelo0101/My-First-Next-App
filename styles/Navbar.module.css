@@ -18,3 +18,7 @@
 .links a {
     margin-left: 20px;
 }
+
+.links a:hover{
+    font-weight: bold;
+}
