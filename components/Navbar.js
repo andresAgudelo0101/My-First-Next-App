@@ -6,8 +6,8 @@ const Navbar=()=> {
         <div className={styles.navbar}>
             <div className={styles.links}>
                 <Link href="/">Criptos</Link>
-                <Link href="/about">Cripto Info</Link>
-                <Link href="/profile">Acerca</Link>
+                <Link href="/cripto_info">Cripto Info</Link>
+                <Link href="/about">Acerca</Link>
             </div>
         </div>
     )

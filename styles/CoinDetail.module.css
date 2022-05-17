@@ -1,0 +1,68 @@
+.container{
+    display: grid;
+    grid-template-columns: 30% 40%;
+    align-items: center;
+    justify-content: center;
+    height: 65vh;
+    width: 100%;
+    padding: 0px;
+}
+
+.containerGrid1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+    width: 100%;
+}
+
+.containerChildGrid1{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    height:90%;
+    width: 80%;
+    background-color:#f79d2f;
+    border-radius: 50%;
+    gap: 0px;
+    padding: 3px;
+
+}
+
+.containerGrid2{
+    display: grid;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #e7e6e6;
+    height: 80%;
+    border-radius: 8px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.coinList{
+    list-style: none;
+    font-size: 1.2rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 200;
+}
+
+.containerImg{
+  display: flex;
+  justify-content: center;
+  width: auto;
+}
+
+.containerTitle{
+    text-align: center;
+    font-size: 1.2rem;
+    width: auto;
+}
+
+.img{
+    height: 93px;
+    width: auto;
+}
+
+.hyper{
+    color: #0000ff;
+}
