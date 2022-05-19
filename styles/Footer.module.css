@@ -1,0 +1,13 @@
+.container{
+    height: 15vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #ffffff;
+    font-size: 0.9em;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    overflow-wrap: break-word;
+    background-color: #2c2f33;
+}

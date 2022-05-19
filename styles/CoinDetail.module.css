@@ -20,9 +20,9 @@
     display:flex;
     justify-content:center;
     align-items: center;
-    height:90%;
-    width: 80%;
-    background-color:#f79d2f;
+    height:20em;
+    width: 20em;
+    background-color:#f7941aee;
     border-radius: 50%;
     gap: 0px;
     padding: 3px;
@@ -33,7 +33,7 @@
     display: grid;
     justify-content: flex-start;
     align-items: center;
-    background-color: #e7e6e6;
+    background-color: #99aab5;
     height: 80%;
     border-radius: 8px;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
@@ -41,9 +41,13 @@
 
 .coinList{
     list-style: none;
+    color: #2c2f33;
     font-size: 1.2rem;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 200;
+    font-weight: 400;
+    line-height: 1.45;
+    overflow-wrap: break-word;
 }
 
 .containerImg{
@@ -61,8 +65,19 @@
 .img{
     height: 93px;
     width: auto;
+    border-radius: 50%;
 }
 
 .hyper{
     color: #0000ff;
+}
+
+@media (max-width:850px) {
+    .container{
+        grid-template-columns: repeat(1,100%);
+    }
+
+    .containerGrid2{
+        height: auto;
+    }
 }
